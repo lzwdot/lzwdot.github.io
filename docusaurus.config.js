@@ -26,8 +26,9 @@ const config = {
     [require.resolve('docusaurus-plugin-baidu-tongji'), {
       token: '96d91412aff9543cd8e022f381d8bf1c'
     }],
-    [require.resolve("@cmfcmf/docusaurus-search-local"), {
-      language: "zh",
+    [require.resolve("@easyops-cn/docusaurus-search-local"), {
+      hashed: true,
+      language: ['zh'],
     }],
   ],
 
@@ -95,8 +96,10 @@ const config = {
           { to: '/about', label: '关于', position: 'left' },
           {
             href: 'https://github.com/lzwdot/lzwdot.github.io',
-            label: 'GitHub',
+            // label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
         hideOnScroll: true, // 滚动隐藏
