@@ -26,6 +26,9 @@ const config = {
     [require.resolve('docusaurus-plugin-baidu-tongji'), {
       token: '96d91412aff9543cd8e022f381d8bf1c'
     }],
+    [require.resolve("@cmfcmf/docusaurus-search-local"), {
+      language: "zh",
+    }],
   ],
 
   presets: [
@@ -39,8 +42,8 @@ const config = {
           editUrl: 'https://github.com/lzwdot/lzwdot.github.io',
         },
         blog: {
-          blogTitle:'博客',
-          blogDescription:'博客',
+          blogTitle: '博客',
+          blogDescription: '博客',
           blogSidebarTitle: '最新博文',
           blogSidebarCount: 10, // 隐藏博客侧边栏
           showReadingTime: true,
@@ -60,20 +63,20 @@ const config = {
       hideableSidebar: true, // 可以折叠
       autoCollapseSidebarCategories: true, // 自动折叠所有其他同级类别
 
-      algolia: {
-        // The application ID provided by Algolia
-        appId: 'OTJIJZHYQS',
-        // Public API key: it is safe to commit it
-        apiKey: '79d48f4233a841eb9ba7b1c2107e4449',
-        indexName: 'docusaurus_index',
-        // Optional: see doc section below
-        contextualSearch: true,
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'lzwdot\\.com|gravatar\\.cn|lzwdot\\.github\\.io',
-        // Optional: Algolia search parameters
-        searchParameters: {},
-        //... other Algolia params
-      },
+      // algolia: {
+      //   // The application ID provided by Algolia
+      //   appId: 'OTJIJZHYQS',
+      //   // Public API key: it is safe to commit it
+      //   apiKey: '79d48f4233a841eb9ba7b1c2107e4449',
+      //   indexName: 'docusaurus_index',
+      //   // Optional: see doc section below
+      //   contextualSearch: true,
+      //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      //   externalUrlRegex: 'lzwdot\\.com|gravatar\\.cn|lzwdot\\.github\\.io',
+      //   // Optional: Algolia search parameters
+      //   searchParameters: {},
+      //   //... other Algolia params
+      // },
 
       navbar: {
         title: 'Lzw\'s 笔记',
