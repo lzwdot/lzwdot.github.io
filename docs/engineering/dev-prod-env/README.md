@@ -1,7 +1,8 @@
 ---
 title: 开发运行环境
 sidebar_position: 1010
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

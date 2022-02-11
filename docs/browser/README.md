@@ -1,7 +1,8 @@
 ---
 title: 浏览器
 sidebar_position: 500
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

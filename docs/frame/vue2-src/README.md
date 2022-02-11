@@ -1,7 +1,8 @@
 ---
 title: vue2 源码学习
 sidebar_position: 680
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

@@ -1,7 +1,8 @@
 ---
 title: 编程
 sidebar_position: 700
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

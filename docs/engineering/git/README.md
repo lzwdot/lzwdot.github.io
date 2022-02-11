@@ -1,7 +1,8 @@
 ---
 title: Git
 sidebar_position: 1020
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

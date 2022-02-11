@@ -1,7 +1,8 @@
 ---
 title: vue3 基础问题
 sidebar_position: 640
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

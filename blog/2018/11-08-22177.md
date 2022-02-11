@@ -8,7 +8,8 @@ categories:
 tags:
   - server
   - php-usage
-authors: lzw
+authors:
+  - lzw
 ---
 
 <!--truncate-->

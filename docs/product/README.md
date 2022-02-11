@@ -1,7 +1,8 @@
 ---
 title: 产品
 sidebar_position: 1100
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

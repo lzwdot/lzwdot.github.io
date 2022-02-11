@@ -1,7 +1,8 @@
 ---
 title: webpack 学习
 sidebar_position: 1050
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

@@ -1,7 +1,8 @@
 ---
 title: 设计模式
 sidebar_position: 900
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

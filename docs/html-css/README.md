@@ -1,7 +1,8 @@
 ---
 title: HTML/CSS
 sidebar_position: 100
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

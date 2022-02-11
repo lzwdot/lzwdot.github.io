@@ -1,6 +1,7 @@
 ---
 title: css 学习
-authors: lzw
+authors:
+  - lzw
 sidebar_position: 130
 ---
 

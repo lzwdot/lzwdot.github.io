@@ -1,7 +1,8 @@
 ---
 title: 数据可视化
 sidebar_position: 720
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

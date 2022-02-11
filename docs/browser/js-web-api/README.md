@@ -1,7 +1,8 @@
 ---
 title: js web api问题
 sidebar_position: 510
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

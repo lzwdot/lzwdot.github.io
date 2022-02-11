@@ -1,7 +1,8 @@
 ---
 title: 异步
 sidebar_position: 300
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

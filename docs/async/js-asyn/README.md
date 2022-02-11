@@ -1,7 +1,8 @@
 ---
 title: js 异步问题
 sidebar_position: 310
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

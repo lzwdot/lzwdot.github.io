@@ -15,8 +15,8 @@ const dirPath = `htmlcss/css-study`
 const title = '标题'
 const fileType = process.argv.slice(2)[0] // doc 或 blog
 
-// createMd(dirPath, title, fileType)
-getMaxId()
+createMd(dirPath, title, fileType)
+// getMaxId()
 
 //============创建文档 或 博客 END========================
 
@@ -70,7 +70,7 @@ function writeReadMe(dirPath) {
   const filePath = `${dirPath}/README.md`
   let matterData = {
     title: '标题',
-    authors: 'lzw'
+    authors: ['lzw']
   }
   // 先删除文件，重建
   if (fs.existsSync(filePath)) {
@@ -102,8 +102,7 @@ function getMaxId() {
   //遍历 docs 下所有文件夹和文件
   const docFiles = glob.sync(`${docsPath}/**/*.md`)
   docFiles.map(file => {
-    const matterData = matter.read(file)
-
+    const matterData = matter.read(file)    
     // 获取 max id
     maxID = Math.max(matterData?.data?.ID || maxID, maxID)
   })
@@ -111,23 +110,9 @@ function getMaxId() {
   // 遍历 blog 下所有文件
   const blogFiles = glob.sync(`${blogPath}/**/*.md`)
   blogFiles.map(file => {
-    const fileData = matter.read(file)?.data
-
+    const matterData = matter.read(file)
     // 获取 max id
-    maxID = Math.max(fileData?.ID || maxID, maxID)
-  })
-
-  glob.sync(`${blogPath}/*.md`).map(file => {
-    const fileData = matter.read(file)?.data
-    const date = fileData.date
-
-    const tempDir = `${blogPath}/${date.slice(0, 4)}`
-    if (!fs.existsSync(tempDir)) {
-      fs.mkdirSync(tempDir)
-    }
-
-    filePath = `${tempDir}/${date.slice(5, 10)}-${fileData.ID}.md`
-    fs.renameSync(file, filePath)
+    maxID = Math.max(matterData?.data?.ID || maxID, maxID)
   })
 
   return maxID

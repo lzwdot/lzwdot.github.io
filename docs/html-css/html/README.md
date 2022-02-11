@@ -1,7 +1,8 @@
 ---
 title: html 基础
 sidebar_position: 110
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

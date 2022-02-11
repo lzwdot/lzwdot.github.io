@@ -1,7 +1,8 @@
 ---
 title: React 问题
 sidebar_position: 660
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

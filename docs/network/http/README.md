@@ -1,7 +1,8 @@
 ---
 title: http 问题
 sidebar_position: 410
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

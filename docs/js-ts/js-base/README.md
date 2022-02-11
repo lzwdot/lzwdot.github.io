@@ -1,7 +1,8 @@
 ---
 title: js 基础问题
 sidebar_position: 210
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

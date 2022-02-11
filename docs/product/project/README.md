@@ -1,7 +1,8 @@
 ---
 title: 项目
 sidebar_position: 1110
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

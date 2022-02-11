@@ -1,7 +1,8 @@
 ---
 title: webpack 常见问题
 sidebar_position: 1040
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

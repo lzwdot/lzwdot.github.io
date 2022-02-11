@@ -1,7 +1,8 @@
 ---
 title: vuejs 使用问题
 sidebar_position: 610
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

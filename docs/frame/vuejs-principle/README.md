@@ -1,7 +1,8 @@
 ---
 title: vuejs 原理解说
 sidebar_position: 620
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

@@ -1,7 +1,8 @@
 ---
 title: 网络
 sidebar_position: 400
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

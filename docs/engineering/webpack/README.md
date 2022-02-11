@@ -1,7 +1,8 @@
 ---
 title: webpack
 sidebar_position: 1030
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

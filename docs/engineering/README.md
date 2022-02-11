@@ -1,7 +1,8 @@
 ---
 title: 工程化
 sidebar_position: 1000
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

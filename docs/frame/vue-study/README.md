@@ -1,7 +1,8 @@
 ---
 title: vue 学习
 sidebar_position: 690
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block

@@ -1,7 +1,8 @@
 ---
 title: React Hooks
 sidebar_position: 670
-authors: lzw
+authors:
+  - lzw
 ---
 
 ```mdx-code-block
