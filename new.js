@@ -15,8 +15,8 @@ const dirPath = `htmlcss/css-study`
 const title = '标题'
 const fileType = process.argv.slice(2)[0] // doc 或 blog
 
-createMd(dirPath, title, fileType)
-// getMaxId()
+// createMd(dirPath, title, fileType)
+getMaxId()
 
 //============创建文档 或 博客 END========================
 
@@ -54,7 +54,7 @@ function createMd(dirname, title, fileType = 'doc', author = 'lzw') {
     filePath = `${tempDir}/${date.slice(5, 10)}-${maxId}.md`
   } else {
     // 创建文件夹的 readme 文件 
-    writeReadMe(dirPath) 
+    writeReadMe(dirPath)
   }
 
   //创建 md 文件
@@ -115,6 +115,19 @@ function getMaxId() {
 
     // 获取 max id
     maxID = Math.max(fileData?.ID || maxID, maxID)
+  })
+
+  glob.sync(`${blogPath}/*.md`).map(file => {
+    const fileData = matter.read(file)?.data
+    const date = fileData.date
+
+    const tempDir = `${blogPath}/${date.slice(0, 4)}`
+    if (!fs.existsSync(tempDir)) {
+      fs.mkdirSync(tempDir)
+    }
+
+    filePath = `${tempDir}/${date.slice(5, 10)}-${fileData.ID}.md`
+    fs.renameSync(file, filePath)
   })
 
   return maxID
