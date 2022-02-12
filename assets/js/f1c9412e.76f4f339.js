@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklzwdot_github_io=self.webpackChunklzwdot_github_io||[]).push([[3151],{51780:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/css-study","name":"css-study","count":1,"permalink":"/blog/tags/css-study"}')}}]);
