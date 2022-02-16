@@ -1,6 +1,6 @@
 ---
 title: 数据可视化
-sidebar_position: 720
+sidebar_position: 710
 authors:
   - lzw
 ---

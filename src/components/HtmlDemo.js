@@ -1,27 +1,32 @@
 import React from "react";
+import CodeBlock from '@theme/CodeBlock';
 import styles from './css/HtmlDemo.module.css'
 
 class HtmlDemo extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      height: 0
+      height: 0,
+      code: ''
     }
     this.iframeRef = React.createRef(null);
   }
 
   componentDidMount() {
     const iframeRef = this.iframeRef.current.contentWindow.document
+    // 判断是否直接引入文件
+    const isImport = !this.props.children.props 
 
     // 把 slot 内容写入 iframe 里面
-    const content = this.props.children.props.children.props.children;
+    const content = isImport ? this.props.children : this.props.children.props.children.props.children;
     iframeRef.open();
     iframeRef.write(content);
     iframeRef.close();
 
     // 高度等于内容高度
     this.setState({
-      height: iframeRef.body.scrollHeight + 20
+      height: iframeRef.body.scrollHeight + 20,
+      code: isImport ? iframeRef.body.innerHTML : content
     });
 
     // 再修复一下
@@ -46,7 +51,9 @@ class HtmlDemo extends React.Component {
         ></iframe>
         <details>
           <summary>查看源码</summary>
-          {this.props.children}
+          <CodeBlock className="language-jsx">
+            {this.state.code}
+          </CodeBlock>
         </details>
       </div >
     )

@@ -1,6 +1,8 @@
-.jsDemo iframe {
-  width: 0;
-  height: 0;
+.jsDemo {
+  margin-bottom: 30px;
+}
+
+.jsDemo iframe { 
   display: none;
 }
 
@@ -15,15 +17,7 @@
   padding-left: 10px;
 }
 
-.jsDemo details :deep([class*="language-"]) {
-  border-radius: 0 0 6px 6px;
-}
-
-.jsDemo details :deep(pre) {
-  border-radius: 0 0 6px 6px;
-}
-
-.jsDemo .consoleLog{
+.jsDemo .consoleLog{  
   background: #1c1e21;
   color: #f5f6f7;
 }
