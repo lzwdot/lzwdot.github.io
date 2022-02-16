@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklzwdot_github_io=self.webpackChunklzwdot_github_io||[]).push([[2508],{30037:function(t){t.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/big-int","name":"BigInt","count":1,"permalink":"/blog/tags/big-int"}')}}]);
