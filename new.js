@@ -11,7 +11,7 @@ const blogPath = './blog' // blog 目录
 
 //============创建文档 或 博客========================
 
-const dirPath = `html-css/css-study`
+const dirPath = `program/algorithm`
 const title = '标题'
 const fileType = process.argv.slice(2)[0] // doc 或 blog
 

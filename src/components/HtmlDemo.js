@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './HtmlDemo.module.css'
+import styles from './css/HtmlDemo.module.css'
 
 class HtmlDemo extends React.Component {
   constructor(props) {
@@ -34,7 +34,7 @@ class HtmlDemo extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className={styles.htmlDemo}>
         <code>源码预览</code>
         <iframe
           ref={this.iframeRef}
@@ -54,16 +54,3 @@ class HtmlDemo extends React.Component {
 }
 
 export default HtmlDemo
-
-/**
-
-
- 
-import HtmlDemo from '../../../src/components/HtmlDemo.js';
-
-<HtmlDemo>
-
-
-
-
- */

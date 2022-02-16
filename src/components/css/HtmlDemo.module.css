@@ -1,4 +1,4 @@
-iframe {
+.htmlDemo iframe {
   /* 网格效果 */
   background-image: linear-gradient(to right, #eee 1px, transparent 1px),
     linear-gradient(to bottom, #eee 1px, transparent 1px);
@@ -14,22 +14,25 @@ iframe {
   padding: 10px;
 }
 
-details {
-  margin-bottom: 20px;
+.htmlDemo>* {
+  margin: 0 !important;
 }
 
-summary {
+.htmlDemo details {
+  margin-bottom: 20px !important;
+}
+
+.htmlDemo summary {
   background: #eee;
   height: 30px;
   line-height: 30px;
   padding-left: 10px;
 }
 
-details :deep([class*="language-"]) {
+.htmlDemo details :deep([class*="language-"]) {
   border-radius: 0 0 6px 6px;
 }
 
-details :deep(pre) {
+.htmlDemo details :deep(pre) {
   border-radius: 0 0 6px 6px;
-  margin-top: 0 !important;
 }
