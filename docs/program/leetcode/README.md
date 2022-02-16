@@ -1,6 +1,6 @@
 ---
-title: 数据结构与算法
-sidebar_position: 720
+title: LeetCode 题目
+sidebar_position: 730
 authors:
   - lzw
 ---
