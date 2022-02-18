@@ -7,7 +7,7 @@
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Lzw 的主页 - Lzw's Homepage</title>
-  <link rel="icon" href="https://lzwdot.vercel.app/favicon.ico">
+  <link rel="icon" href="https://lzwdot.com/favicon.ico">
   <style>
     body {
       margin: 0;
@@ -152,15 +152,20 @@
 
   <script src="https://js.fundebug.cn/fundebug.2.8.0.min.js"
     apikey="a669d58ab1cdab8d937071a29b5d13fe3c9bf28d1e246dc013845a1461ca64be" crossorigin="anonymous">
-  </script>
-  <script src="https://js.fundebug.cn/fundebug.revideo.0.7.1.min.js"
-  ></script>
+    </script>
+  <script src="https://js.fundebug.cn/fundebug.revideo.0.7.1.min.js"></script>
 
-  <script
-  src="https://browser.sentry-cdn.com/6.17.9/bundle.min.js"
-  integrity="sha384-bg8ATkDzxNiciak2tVJV/r+DHguxvOKHQqRi2SKP2mc8IOZphuG/bYdsyBm+KQC3"
-  crossorigin="anonymous"
-></script>
+  <script>
+    if ("fundebug" in window) {
+      fundebug.metaData = {
+        company:
+        {
+          name: "Fundebug",
+          nation: "China"
+        }
+      };
+    }
+  </script>
 </body>
 
 </html>
