@@ -169,5 +169,5 @@ bigN * -1n
 
 这里推荐两个库来解决浮点数精度计算的问题
 
-> number-precision : https://rat.dev/nefe/number-precision    
-> bignumber.js : https://rat.dev/MikeMcl/bignumber.js  
+> number-precision : https://github.com/nefe/number-precision    
+> bignumber.js : https://github.com/MikeMcl/bignumber.js  
