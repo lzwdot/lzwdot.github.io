@@ -25,11 +25,7 @@ const config = {
   plugins: [
     [require.resolve('docusaurus-plugin-baidu-tongji'), {
       token: '96d91412aff9543cd8e022f381d8bf1c'
-    }],
-    // [require.resolve("@easyops-cn/docusaurus-search-local"), {
-    //   hashed: true,
-    //   language: ["en", "zh"],
-    // }],
+    }],   
   ],
 
   presets: [
