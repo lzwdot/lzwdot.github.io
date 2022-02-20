@@ -15,12 +15,12 @@ class HtmlDemo extends React.Component {
   componentDidMount() {
     const iframeRef = this.iframeRef.current.contentWindow.document
     // 判断是否直接引入文件
-    const isImport = !this.props.children.props 
+    const isImport = !this.props.children.props
 
     // 把 slot 内容写入 iframe 里面
     const content = isImport ? this.props.children : this.props.children.props.children.props.children;
     iframeRef.open();
-    iframeRef.write(content);
+    iframeRef.write(`<style>html,body{margin:0;padding:0}</style>${content}`);
     iframeRef.close();
 
     // 高度等于内容高度
