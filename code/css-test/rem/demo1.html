@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rem 布局 - 网易移动端</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/reseter.css/2.0.0/reseter.min.css">
+    <style>
+        @font-face {
+            font-family: 'iconfont';
+            /* Project id 3183629 */
+            src: url('//at.alicdn.com/t/font_3183629_xv1yw30mb8.woff2?t=1645514444332') format('woff2'),
+                url('//at.alicdn.com/t/font_3183629_xv1yw30mb8.woff?t=1645514444332') format('woff'),
+                url('//at.alicdn.com/t/font_3183629_xv1yw30mb8.ttf?t=1645514444332') format('truetype');
+        }
+
+        .icon {
+            font-family: iconfont;
+        }
+
+        html {
+            font-size: 26.666666666666668vw;
+        }
+
+        body {
+            font-size: 16px;
+        }
+
+        .head {
+            height: 43px;
+            background-color: #ef1b1a;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .head-user,
+        .head-email {
+            width: 25%;
+        }
+
+        .head-logo {
+            width: 50%;
+        }
+    </style>
+
+    <div class="head">
+        <div class="head-user">
+            <span class="icon">&#xe633;</span>
+        </div>
+        <div class="head-logo">
+            <span class="icon">&#xe6ad;</span>
+        </div>
+        <div class="head-email">
+            <span class="icon">&#xe908;</span>邮箱
+            <span class="icon">&#xe65e;</span>
+        </div>
+    </div>
+</body>
+
+</html>
