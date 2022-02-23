@@ -34,6 +34,11 @@
       margin: 0;
     }
 
+    img {
+      max-width: 100%;
+      object-fit: cover;
+    }
+
     html {
       margin: 0 auto;
       max-width: 375px;
@@ -117,15 +122,11 @@
     }
 
     .nav-sub__closed {
-      height: auto;
+      height: 70px;
       overflow: hidden;
     }
-
-    .nav-sub__closed:hover {
-      height: 70px;
-    }
-
-    .nav-sub__closed:hover+.nav-sub-arrow {
+    
+    .nav-sub__closed+.nav-sub-arrow {
       transform: rotate(0deg);
     }
 
@@ -134,6 +135,82 @@
       right: 10px;
       bottom: 20px;
       transform: rotate(180deg);
+    }
+
+    .news {
+      padding: 0 10px;
+      background-color: white;
+      overflow: hidden;
+    }
+
+    .news-title {
+      font-size: 18px;
+      line-height: 66px;
+    }
+
+    .news-item {
+      margin-bottom: 25px;
+    }
+
+    .news-item-title {
+      line-height: 22px;
+      font-size: 17px;
+      margin-bottom: 8px;
+      font-weight: 400;
+    }
+
+    .news-item-info {
+      font-size: 12px;
+      color: #b3b4b6;
+    }
+
+    .news-item-img {
+      width: 100%;
+      margin-top: 5px;
+      margin-bottom: 9px;
+    }
+
+    .news2 {
+      /* padding: 0 10px; */
+      background-color: white;
+      overflow: hidden;
+    }
+
+    .news2-item {
+      border-top: 0.5px #f6f7f9 solid;
+      padding: 10px;
+      display: flex;
+    }
+
+    .news2-item-content {
+      flex-grow: 1;
+      margin-right: 15px;
+    }
+
+    .news2-item-title {
+      line-height: 22px;
+      font-size: 17px;
+      margin-bottom: 8px;
+      font-weight: 400;
+    }
+
+    .news2-item-info {
+      font-size: 12px;
+      color: #b3b4b6;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .news2-item-img {
+      width: 117px;
+    }
+
+    .news2-item-app {
+      color: #fb1515;
+      border: 0.5px #fbbab8 solid;
+      border-radius: 100px;
+      padding: 2px 5px;
     }
   </style>
 
@@ -185,6 +262,67 @@
       <span class="icon">&#xe65e;</span>
     </div>
   </div>
+  <div class="news">
+    <h2 class="news-title">今日要闻</h2>
+    <div class="news-item">
+      <h3 class="news-item-title">测试文字</h3>
+      <p class="news-item-info">央视网 1小时前 89跟帖</p>
+    </div>
+    <div class="news-item">
+      <h3 class="news-item-title">测试文字</h3>
+      <div class="news-item-img">
+        <img src="https://picsum.photos/530/300" alt="">
+      </div>
+      <p class="news-item-info">央视网 1小时前 89跟帖</p>
+    </div>
+    <div class="news-item">
+      <h3 class="news-item-title">测试文字</h3>
+      <p class="news-item-info">央视网 1小时前 89跟帖</p>
+    </div>
+  </div>
+  <div class="news2">
+    <div class="news2-item">
+      <div class="news2-item-content">
+        <h3 class="news2-item-title">测试文字</h3>
+        <p class="news2-item-info">
+          <span>央视网 89跟帖</span>
+          <span class="news2-item-app">
+            打开APP
+          </span>
+        </p>
+      </div>
+      <div class="news2-item-img">
+        <img src="https://picsum.photos/750/300" alt="">
+      </div>
+    </div>
+    <div class="news2-item">
+      <div class="news2-item-content">
+        <h3 class="news2-item-title">测试文字</h3>
+        <p class="news2-item-info">
+          <span>央视网 89跟帖</span>
+          <span class="news2-item-app">
+            打开APP
+          </span>
+        </p>
+      </div>
+      <div class="news2-item-img">
+        <img src="https://picsum.photos/750/300" alt="">
+      </div>
+    </div>
+    <div class="news2-item">
+      <div class="news2-item-content">
+        <h3 class="news2-item-title">测试文字</h3>
+        <p class="news2-item-info">
+          <span>央视网 89跟帖</span>
+          <span class="news2-item-app">
+            打开APP
+          </span>
+        </p>
+      </div>
+      <div class="news2-item-img">
+        <img src="https://picsum.photos/750/300" alt="">
+      </div>
+    </div>
 </body>
 
 </html>

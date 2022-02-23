@@ -34,7 +34,7 @@ class HtmlDemo extends React.Component {
       this.setState({
         height: iframeRef.body.scrollHeight + 20
       });
-    }, 300);
+    }, 3000);
   }
 
   render() {
