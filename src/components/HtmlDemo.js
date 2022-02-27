@@ -10,37 +10,56 @@ class HtmlDemo extends React.Component {
       code: ''
     }
     this.iframeRef = React.createRef(null);
+    this.openWin = this.openWin.bind(this)
   }
 
   componentDidMount() {
-    const iframeRef = this.iframeRef.current.contentWindow.document
+    const iframeDoc = this.iframeRef.current.contentWindow.document
     // 判断是否直接引入文件
     const isImport = !this.props.children.props
 
-    // 把 slot 内容写入 iframe 里面
-    const content = isImport ? this.props.children : this.props.children.props.children.props.children;
-    iframeRef.open();
-    iframeRef.write(`<style>html,body{margin:0;padding:0}</style>${content}`);
-    iframeRef.close();
+    // 获取 body 中的内容
+    let content = isImport ? this.props.children : this.props.children.props.children.props.children;
+    if (isImport) {
+      content = content.match(/<body[^>]*>([\s\S]*)<\/body>/)[1]
+    }
 
-    // 高度等于内容高度
+    // 把 slot 内容写入 iframe 里面
+    iframeDoc.open();
+    iframeDoc.write(`<style>html,body{margin:0;padding:0}</style>${content}`);
+    iframeDoc.close();
+
+    // 查看源码
     this.setState({
-      height: iframeRef.body.scrollHeight + 20,
-      code: isImport ? iframeRef.body.innerHTML : content
+      code: content
     });
 
-    // 再修复一下
-    setTimeout(() => {
+    // 高度等于内容高度
+    this.iframeRef.current.onload = () => {
       this.setState({
-        height: iframeRef.body.scrollHeight + 20
+        height: iframeDoc.body.scrollHeight + 20
       });
-    }, 3000);
+    }
+  }
+
+  openWin() {
+    const win = window.open('')
+    win.focus()
+
+    // 把 slot 内容写入 iframe 里面
+    win.document.write(`<style>html,body{margin:0;padding:0}</style>${this.state.code}`);
+    win.document.title = '在线代码运行'
+
+    win.document.close()
   }
 
   render() {
     return (
       <div className={styles.htmlDemo}>
-        <code>源码预览</code>
+        <header>
+          <code>源码预览</code>
+          <a href="#" onClick={this.openWin}>打开窗口</a>
+        </header>
         <iframe
           ref={this.iframeRef}
           height={this.state.height}

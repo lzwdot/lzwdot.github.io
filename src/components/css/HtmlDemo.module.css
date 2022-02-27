@@ -22,6 +22,11 @@
   margin: 0 !important;
 }
 
+.htmlDemo header{
+  display: flex;
+  justify-content: space-between;
+}
+
 .htmlDemo summary {
   background: #eee;
   height: 30px;
