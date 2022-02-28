@@ -33,7 +33,7 @@ class JsDemo extends React.Component {
       document.write('>');
     </script>  
     `
-    
+
     // 把 slot 内容写入 iframe 里面
     iframeRef.open();
     iframeRef.write(contentLog);

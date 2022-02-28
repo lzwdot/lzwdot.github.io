@@ -125,7 +125,7 @@ function HtmlDemo(props) {
   // 模拟 render
   return <div className={styles.htmlDemo}>
     <header>
-      <mark>源码预览</mark>
+      <code>源码预览</code>
       <a href="#" onClick={openWin}>打开窗口</a>
     </header>
     <iframe
