@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklzwdot_github_io=self.webpackChunklzwdot_github_io||[]).push([[16137],{53362:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/js","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"\u535a\u5ba2","blogTitle":"\u535a\u5ba2"}')}}]);

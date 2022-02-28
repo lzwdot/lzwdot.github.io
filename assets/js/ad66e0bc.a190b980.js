@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklzwdot_github_io=self.webpackChunklzwdot_github_io||[]).push([[8543],{13048:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/web-components","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"previousPage":null,"nextPage":null,"blogDescription":"\u535a\u5ba2","blogTitle":"\u535a\u5ba2"}')}}]);
