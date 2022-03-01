@@ -87,7 +87,7 @@ const config = {
             type: 'doc',
             docId: 'README',
             position: 'left',
-            label: '文档',
+            label: '笔记',
           },
           { to: '/about', label: '关于', position: 'left' },
           {
