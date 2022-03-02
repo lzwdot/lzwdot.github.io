@@ -25,7 +25,17 @@ const config = {
   plugins: [
     [require.resolve('docusaurus-plugin-baidu-tongji'), {
       token: '96d91412aff9543cd8e022f381d8bf1c'
-    }],   
+    }],
+    [
+      'content-docs',
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({
+        id: 'test',
+        path: 'test',
+        routeBasePath: 'test',
+        sidebarPath: require.resolve('./sidebars.js'),
+      }),
+    ],
   ],
 
   presets: [
@@ -87,7 +97,13 @@ const config = {
             type: 'doc',
             docId: 'README',
             position: 'left',
-            label: '文档',
+            label: '笔记',
+          },
+          {
+            to: '/test',
+            label: '测试',
+            position: 'left',
+            activeBaseRegex: `/test/`,
           },
           { to: '/about', label: '关于', position: 'left' },
           {
