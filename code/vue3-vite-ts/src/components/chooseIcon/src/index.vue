@@ -61,7 +61,7 @@ watch(() => dialogVisiable.value, val => {
 })
 </script>
 
-<style scoped>
+<style lang='scss' scoped>
 .container {
     display: flex;
     align-items: center;
