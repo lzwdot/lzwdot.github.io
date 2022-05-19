@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>Lzw&#39;s 笔记</ShortName>
-  <Description>Search Lzw&#39;s 笔记</Description>
+  <ShortName>前端老刘</ShortName>
+  <Description>Search 前端老刘</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">https://lzwdot.com/img/favicon.ico</Image>
   <Url type="text/html" method="get" template="https://lzwdot.com/search?q={searchTerms}"/>

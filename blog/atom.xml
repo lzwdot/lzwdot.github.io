@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lzwdot.com/blog</id>
-    <title>Lzw's 笔记 Blog</title>
+    <title>前端老刘 Blog</title>
     <updated>2022-02-11T21:20:21.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lzwdot.com/blog"/>
-    <subtitle>Lzw's 笔记 Blog</subtitle>
+    <subtitle>前端老刘 Blog</subtitle>
     <icon>https://lzwdot.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[JS 精度问题由来及解决]]></title>
