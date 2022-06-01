@@ -86,7 +86,7 @@ const config = {
       },
 
       navbar: {
-        title: '前端老刘',
+        title: '前端大刘',
         logo: {
           alt: 'Lzw\'s Logo',
           src: 'img/favicon.ico',
