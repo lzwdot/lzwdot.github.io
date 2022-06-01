@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '前端老刘',
+  title: '前端大刘',
   tagline: '记录和分享，每天进步一点点！',
   url: 'https://lzwdot.com',
   baseUrl: '/',
