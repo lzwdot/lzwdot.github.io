@@ -67,8 +67,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      hideableSidebar: true, // 可以折叠
-      autoCollapseSidebarCategories: true, // 自动折叠所有其他同级类别
+      docs:{
+        sidebar:{
+          hideable: true, // 可以折叠
+          autoCollapseCategories:true, // 自动折叠所有其他同级类别
+        }        
+      },     
 
       algolia: {
         // The application ID provided by Algolia

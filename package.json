@@ -16,8 +16,9 @@
     "new": "node ./new.js"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.16",
-    "@docusaurus/preset-classic": "^2.0.0-beta.16",
+    "@docusaurus/core": "^2.0.0-beta.21",
+    "@docusaurus/preset-classic": "^2.0.0-beta.21",
+    "@giscus/react": "^2.0.6",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "docusaurus-plugin-baidu-tongji": "0.0.0-beta.1",
@@ -26,7 +27,7 @@
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "2.0.0-beta.16",
+    "@docusaurus/module-type-aliases": "^2.0.0-beta.21",
     "@tsconfig/docusaurus": "^1.0.4",
     "moment": "^2.29.1",
     "raw-loader": "^4.0.2",
