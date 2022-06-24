@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklzwdot_github_io=self.webpackChunklzwdot_github_io||[]).push([[62508],{30037:t=>{t.exports=JSON.parse('{"label":"BigInt","permalink":"/blog/tags/big-int","allTagsPath":"/blog/tags","count":1}')}}]);

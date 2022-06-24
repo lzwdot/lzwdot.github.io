@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklzwdot_github_io=self.webpackChunklzwdot_github_io||[]).push([[83999],{70827:function(t){t.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/notes","name":"notes","count":3,"permalink":"/blog/tags/notes"}')}}]);

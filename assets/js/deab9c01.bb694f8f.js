@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklzwdot_github_io=self.webpackChunklzwdot_github_io||[]).push([[88564],{22361:t=>{t.exports=JSON.parse('{"permalink":"/blog/tags/js-ts","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"\u535a\u5ba2","blogTitle":"\u535a\u5ba2"}')}}]);

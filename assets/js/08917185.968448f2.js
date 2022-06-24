@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklzwdot_github_io=self.webpackChunklzwdot_github_io||[]).push([[10445],{47737:s=>{s.exports=JSON.parse('{"permalink":"/blog/tags/js-css","page":1,"postsPerPage":10,"totalPages":2,"totalCount":20,"nextPage":"/blog/tags/js-css/page/2","blogDescription":"\u535a\u5ba2","blogTitle":"\u535a\u5ba2"}')}}]);

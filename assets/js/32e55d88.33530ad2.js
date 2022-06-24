@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklzwdot_github_io=self.webpackChunklzwdot_github_io||[]).push([[73874],{12807:s=>{s.exports=JSON.parse('{"label":"js-ts","permalink":"/blog/tags/js-ts","allTagsPath":"/blog/tags","count":2}')}}]);

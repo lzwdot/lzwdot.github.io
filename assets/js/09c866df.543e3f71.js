@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklzwdot_github_io=self.webpackChunklzwdot_github_io||[]).push([[75814],{98352:t=>{t.exports=JSON.parse('{"permalink":"/blog/tags/notes","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"\u535a\u5ba2","blogTitle":"\u535a\u5ba2"}')}}]);

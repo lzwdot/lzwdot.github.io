@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklzwdot_github_io=self.webpackChunklzwdot_github_io||[]).push([[73874],{12807:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/js-ts","name":"js-ts","count":2,"permalink":"/blog/tags/js-ts"}')}}]);
