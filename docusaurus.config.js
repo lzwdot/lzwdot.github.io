@@ -96,20 +96,20 @@ const config = {
           src: 'img/favicon.ico',
         },
         items: [
-          { to: '/blog', label: '博客', position: 'left' },
+          { to: '/blog', label: '博客', position: 'right' },
           {
             type: 'doc',
             docId: 'README',
-            position: 'left',
+            position: 'right',
             label: '笔记',
           },
           {
             to: '/test',
             label: '测试',
-            position: 'left',
+            position: 'right',
             activeBaseRegex: `/test/`,
           },
-          { to: '/about', label: '关于', position: 'left' },
+          { to: '/about', label: '关于/留言', position: 'right' },
           {
             href: 'https://github.com/lzwdot/lzwdot.github.io',
             // label: 'GitHub',

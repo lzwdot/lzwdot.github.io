@@ -1,5 +1,5 @@
 ---
-title: 关于
+title: 关于/留言
 sidebar_position: 1
 ---
 # 关于
@@ -12,5 +12,11 @@ QQ：[QQ交谈](http://wpa.qq.com/msgrd?v=3&amp;uin=506892568&amp;site=qq&amp;me
 微信：     
 
 ![weixin](./images/weixin.jpg)
+
+# 留言
+
+import MsgComment from '../components/MsgComment';
+
+<MsgComment />
   
  
