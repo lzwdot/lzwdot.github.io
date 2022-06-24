@@ -1,15 +1,15 @@
 import React from 'react';
 import Giscus from '@giscus/react';
 
-export default function BlogComment(props) {
+export default function DocComment(props) {
   return (
     <Giscus
       id="comments"
       repo="lzwdot/lzwdot.github.io"
       repoId="R_kgDOG0E0Wg"
-      category="blog"
-      categoryId="DIC_kwDOG0E0Ws4CP3Db"
-      mapping="title"      
+      category="docs"
+      categoryId="DIC_kwDOG0E0Ws4CP3Dc"
+      mapping="title"     
       reactionsEnabled="1"
       emitMetadata="1"
       inputPosition="top"

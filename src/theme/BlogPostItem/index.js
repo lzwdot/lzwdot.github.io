@@ -3,10 +3,11 @@ import BlogPostItem from '@theme-original/BlogPostItem';
 import BlogComment from '../../components/BlogComment'
 
 export default function BlogPostItemWrapper(props) {
+  console.log(props)
   return (
     <>
       <BlogPostItem {...props} />
-      <BlogComment />
+      {props.isBlogPostPage && <BlogComment />}
     </>
   );
 }
