@@ -13,6 +13,7 @@ QQ：[QQ交谈](http://wpa.qq.com/msgrd?v=3&amp;uin=506892568&amp;site=qq&amp;me
 
 ![weixin](./images/weixin.jpg)
 
+---
 # 留言
 
 import MsgComment from '../components/MsgComment';
