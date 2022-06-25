@@ -1,13 +1,12 @@
 import React from 'react';
 import BlogPostItem from '@theme-original/BlogPostItem';
-import BlogComment from '../../components/BlogComment'
+import Comments from '../../components/Comments'
 
-export default function BlogPostItemWrapper(props) {
-  console.log(props)
+export default function BlogPostItemWrapper(props) { 
   return (
     <>
       <BlogPostItem {...props} />
-      {props.isBlogPostPage && <BlogComment />}
+      {props.isBlogPostPage && <Comments {...{type:'blog'}}/>}
     </>
   );
 }

@@ -16,8 +16,8 @@ QQ：[QQ交谈](http://wpa.qq.com/msgrd?v=3&amp;uin=506892568&amp;site=qq&amp;me
 ---
 # 留言
 
-import MsgComment from '../components/MsgComment';
+import Comments from '../components/Comments';
 
-<MsgComment />
+<Comments {...{type:'comments'}}/>
   
  
