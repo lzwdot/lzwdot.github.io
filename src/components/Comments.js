@@ -23,8 +23,7 @@ export default function Comments(props) {
       repoId="R_kgDOG0E0Wg"
       category={category}
       categoryId={categoryId}
-      mapping="title"
-      term="来自【前端大刘】"
+      mapping="title"      
       reactionsEnabled="1"
       emitMetadata="1"
       inputPosition="top"
