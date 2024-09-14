@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([[7015],{38055:u=>{u.exports=JSON.parse('{"name":"feedback-plugin","id":"default"}')}}]);
