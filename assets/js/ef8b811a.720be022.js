@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus=self.webpackChunkdocusaurus||[]).push([["2134"],{96007:function(u){u.exports=JSON.parse('{"authors":[{"name":"\u5927\u5218","title":"\u4E00\u4E2A web \u5F00\u53D1\u8005","url":"https://github.com/lzwdot","imageURL":"https://avatars.githubusercontent.com/u/24477920?v=4","key":"lzw","page":null,"count":11}]}')}}]);
