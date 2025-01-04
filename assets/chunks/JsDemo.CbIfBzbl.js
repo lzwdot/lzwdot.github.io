@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/chunks/JsDemo.BhlaKIsc.js","assets/chunks/framework.BudGbe4l.js"])))=>i.map(i=>d[i]);
+import{d as s,a1 as a,o as n,b as l,w as r,r as _,k as u,a2 as d,V as f}from"./framework.BudGbe4l.js";const m=s({__name:"JsDemo",setup(i){const e=a(),t=d(()=>f(()=>import("./JsDemo.BhlaKIsc.js"),__vite__mapDeps([0,1])),[{},{default:()=>e.default()}]);return(o,p)=>(n(),l(u(t),null,{default:r(()=>[_(o.$slots,"default")]),_:3}))}});export{m as default};
