@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/chunks/HtmlDemo.BZMZ6Xi6.js","assets/chunks/framework.DG3u1zDB.js"])))=>i.map(i=>d[i]);
-import{d as a,a1 as s,o as n,b as l,w as r,r as _,k as u,a2 as d,V as f}from"./framework.DG3u1zDB.js";const c=a({__name:"HtmlDemo",setup(i){const e=s(),t=d(()=>f(()=>import("./HtmlDemo.BZMZ6Xi6.js"),__vite__mapDeps([0,1])),[{},{default:()=>e.default()}]);return(o,m)=>(n(),l(u(t),null,{default:r(()=>[_(o.$slots,"default")]),_:3}))}});export{c as default};

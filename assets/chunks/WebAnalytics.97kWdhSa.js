@@ -1,0 +1,1 @@
+import{d as o,a3 as a,v as r,o as s,c}from"./framework.DatVRQJC.js";const p=o({__name:"WebAnalytics",setup(u){const t=a();r(()=>{t.onAfterRouteChanged=n});function n(e){window.hasOwnProperty.call("_hmt")&&window._hmt.push(["_trackPageview",e])}return(e,_)=>(s(),c("span"))}});export{p as default};
