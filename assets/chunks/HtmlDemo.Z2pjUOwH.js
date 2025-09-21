@@ -1,2 +1,0 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/chunks/HtmlDemo.CW89lmkP.js","assets/chunks/framework.DatVRQJC.js"])))=>i.map(i=>d[i]);
-import{d as a,a1 as s,o as n,b as l,w as r,r as _,k as u,a2 as d,V as f}from"./framework.DatVRQJC.js";const c=a({__name:"HtmlDemo",setup(i){const e=s(),t=d(()=>f(()=>import("./HtmlDemo.CW89lmkP.js"),__vite__mapDeps([0,1])),[{},{default:()=>e.default()}]);return(o,m)=>(n(),l(u(t),null,{default:r(()=>[_(o.$slots,"default")]),_:3}))}});export{c as default};
