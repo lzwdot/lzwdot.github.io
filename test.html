@@ -6,13 +6,11 @@
     <title>测试页面</title>
   </head>
   <body>
-    <script src="./test.js"></script>
-
-
-    <form class="container">
-      <div class="form-item">
-          <input type="text">
-      </div>
-    </form>
+    <iframe src="./iframe.html" id="iframe1"></iframe>
+    <script>
+      window.addEventListener('message', (e) => {
+        console.log(e.data);
+      });
+    </script>
   </body>
 </html>
