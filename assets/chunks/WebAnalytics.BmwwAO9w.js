@@ -1,0 +1,1 @@
+import{d as o,a4 as a,p as r,c as s,o as c}from"./framework.DIIbMIHw.js";const i=o({__name:"WebAnalytics",setup(p){const t=a();r(()=>{t.onAfterRouteChanged=n});function n(e){window.hasOwnProperty.call("_hmt")&&window._hmt.push(["_trackPageview",e])}return(e,u)=>(c(),s("span"))}});export{i as default};
